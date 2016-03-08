@@ -1,0 +1,7 @@
+language: objective-c
+osx_image: xcode7.2
+xcode_workspace: ADContactsManager.xcworkspace
+xcode_scheme: ADContactsManager
+xcode_sdk: iphonesimulator9.2
+script: 
+  - xctool -workspace ADContactsManager.xcworkspace -scheme ADContactsManager build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
