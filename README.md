@@ -1,2 +1,3 @@
-# ADContactsManager
-Easy-to-use wrapper for both Contacts and AddressBook frameworks
+# ADPuzzleAnimation
+
+![](https://travis-ci.org/Antondomashnev/ADContactsManager.svg?branch=master)
