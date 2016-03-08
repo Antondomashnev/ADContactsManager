@@ -9,7 +9,46 @@
 /* Begin PBXBuildFile section */
 		6D71CBA61C70C6B7003B0B1B /* ADContactsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBA51C70C6B7003B0B1B /* ADContactsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D71CBAD1C70C6B7003B0B1B /* ADContactsManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D71CBA21C70C6B7003B0B1B /* ADContactsManager.framework */; };
-		6D71CBB21C70C6B7003B0B1B /* ADContactsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBB11C70C6B7003B0B1B /* ADContactsManagerTests.m */; };
+		6D71CBDA1C70C834003B0B1B /* ADAddressBookConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBBF1C70C834003B0B1B /* ADAddressBookConverter.h */; };
+		6D71CBDB1C70C834003B0B1B /* ADAddressBookConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBC01C70C834003B0B1B /* ADAddressBookConverter.m */; };
+		6D71CBDC1C70C834003B0B1B /* ADAddressBookFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBC11C70C834003B0B1B /* ADAddressBookFieldMask.h */; };
+		6D71CBDD1C70C834003B0B1B /* ADAddressBookFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBC21C70C834003B0B1B /* ADAddressBookFieldMask.m */; };
+		6D71CBDE1C70C834003B0B1B /* ADAddressBookFrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBC31C70C834003B0B1B /* ADAddressBookFrameworkManager.h */; };
+		6D71CBDF1C70C834003B0B1B /* ADAddressBookFrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBC41C70C834003B0B1B /* ADAddressBookFrameworkManager.m */; };
+		6D71CBE01C70C834003B0B1B /* ADContactsConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBC61C70C834003B0B1B /* ADContactsConverter.h */; };
+		6D71CBE11C70C834003B0B1B /* ADContactsConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBC71C70C834003B0B1B /* ADContactsConverter.m */; };
+		6D71CBE21C70C834003B0B1B /* ADContactsFieldMask.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBC81C70C834003B0B1B /* ADContactsFieldMask.h */; };
+		6D71CBE31C70C834003B0B1B /* ADContactsFieldMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBC91C70C834003B0B1B /* ADContactsFieldMask.m */; };
+		6D71CBE41C70C834003B0B1B /* ADContactsFrameworkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBCA1C70C834003B0B1B /* ADContactsFrameworkManager.h */; };
+		6D71CBE51C70C834003B0B1B /* ADContactsFrameworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBCB1C70C834003B0B1B /* ADContactsFrameworkManager.m */; };
+		6D71CBE61C70C834003B0B1B /* ADContactInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBCD1C70C834003B0B1B /* ADContactInfo.h */; };
+		6D71CBE71C70C834003B0B1B /* ADContactsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBCE1C70C834003B0B1B /* ADContactsManager.h */; };
+		6D71CBE81C70C834003B0B1B /* ADContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBCF1C70C834003B0B1B /* ADContactsManager.m */; };
+		6D71CBE91C70C834003B0B1B /* ADContactsTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBD01C70C834003B0B1B /* ADContactsTypes.h */; };
+		6D71CBEA1C70C834003B0B1B /* ADContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBD21C70C834003B0B1B /* ADContact.h */; };
+		6D71CBEB1C70C834003B0B1B /* ADContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBD31C70C834003B0B1B /* ADContact.m */; };
+		6D71CBEC1C70C834003B0B1B /* ADContactAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBD41C70C834003B0B1B /* ADContactAddress.h */; };
+		6D71CBED1C70C834003B0B1B /* ADContactAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBD51C70C834003B0B1B /* ADContactAddress.m */; };
+		6D71CBEE1C70C834003B0B1B /* ADContactEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBD61C70C834003B0B1B /* ADContactEmail.h */; };
+		6D71CBEF1C70C834003B0B1B /* ADContactEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBD71C70C834003B0B1B /* ADContactEmail.m */; };
+		6D71CBF01C70C834003B0B1B /* ADContactPhone.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBD81C70C834003B0B1B /* ADContactPhone.h */; };
+		6D71CBF11C70C834003B0B1B /* ADContactPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBD91C70C834003B0B1B /* ADContactPhone.m */; };
+		6D71CBF71C70F84A003B0B1B /* ADAddressBookConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBF21C70F84A003B0B1B /* ADAddressBookConverterTests.m */; };
+		6D71CBF81C70F84A003B0B1B /* ADContactsConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBF31C70F84A003B0B1B /* ADContactsConverterTests.m */; };
+		6D71CBF91C70F84A003B0B1B /* ADContactsFieldMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBF41C70F84A003B0B1B /* ADContactsFieldMaskTests.m */; };
+		6D71CBFA1C70F84A003B0B1B /* ADContactsFrameworkManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBF51C70F84A003B0B1B /* ADContactsFrameworkManagerTests.m */; };
+		6D71CBFB1C70F84A003B0B1B /* ADContactsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBF61C70F84A003B0B1B /* ADContactsManagerTests.m */; };
+		6D71CBFF1C70FBFA003B0B1B /* ADContactsManagerUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CBFD1C70FBFA003B0B1B /* ADContactsManagerUtilities.h */; };
+		6D71CC001C70FBFA003B0B1B /* ADContactsManagerUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CBFE1C70FBFA003B0B1B /* ADContactsManagerUtilities.m */; };
+		6D71CC031C70FDC8003B0B1B /* ADContactsManagerError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D71CC011C70FDC8003B0B1B /* ADContactsManagerError.h */; };
+		6D71CC041C70FDC8003B0B1B /* ADContactsManagerError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D71CC021C70FDC8003B0B1B /* ADContactsManagerError.m */; };
+		6DE70E631C8D737400E37260 /* ADContactsManagerUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E621C8D737400E37260 /* ADContactsManagerUtilitiesTests.m */; };
+		6DE70E651C8D746600E37260 /* ADContactsManagerErrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E641C8D746600E37260 /* ADContactsManagerErrorTests.m */; };
+		6DE70E671C8D75A500E37260 /* ADContactTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E661C8D75A500E37260 /* ADContactTests.m */; };
+		6DE70E691C8D803100E37260 /* ADContactPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E681C8D803100E37260 /* ADContactPhoneTests.m */; };
+		6DE70E6B1C8D80BF00E37260 /* ADContactEmailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E6A1C8D80BF00E37260 /* ADContactEmailTests.m */; };
+		6DE70E6D1C8D811C00E37260 /* ADContactAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE70E6C1C8D811C00E37260 /* ADContactAddressTests.m */; };
+		F4E50666DCCD9F897D337C20 /* libPods-ADContactsManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FEAE2D97E3108A64F20709 /* libPods-ADContactsManagerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +62,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EAA46980971DEFFCB7EA4F8 /* Pods-ADContactsManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADContactsManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADContactsManagerTests/Pods-ADContactsManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D71CBA21C70C6B7003B0B1B /* ADContactsManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ADContactsManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D71CBA51C70C6B7003B0B1B /* ADContactsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADContactsManager.h; sourceTree = "<group>"; };
 		6D71CBA71C70C6B7003B0B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D71CBAC1C70C6B7003B0B1B /* ADContactsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADContactsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D71CBB11C70C6B7003B0B1B /* ADContactsManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerTests.m; sourceTree = "<group>"; };
 		6D71CBB31C70C6B7003B0B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D71CBBF1C70C834003B0B1B /* ADAddressBookConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAddressBookConverter.h; sourceTree = "<group>"; };
+		6D71CBC01C70C834003B0B1B /* ADAddressBookConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAddressBookConverter.m; sourceTree = "<group>"; };
+		6D71CBC11C70C834003B0B1B /* ADAddressBookFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAddressBookFieldMask.h; sourceTree = "<group>"; };
+		6D71CBC21C70C834003B0B1B /* ADAddressBookFieldMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAddressBookFieldMask.m; sourceTree = "<group>"; };
+		6D71CBC31C70C834003B0B1B /* ADAddressBookFrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAddressBookFrameworkManager.h; sourceTree = "<group>"; };
+		6D71CBC41C70C834003B0B1B /* ADAddressBookFrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAddressBookFrameworkManager.m; sourceTree = "<group>"; };
+		6D71CBC61C70C834003B0B1B /* ADContactsConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsConverter.h; sourceTree = "<group>"; };
+		6D71CBC71C70C834003B0B1B /* ADContactsConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsConverter.m; sourceTree = "<group>"; };
+		6D71CBC81C70C834003B0B1B /* ADContactsFieldMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsFieldMask.h; sourceTree = "<group>"; };
+		6D71CBC91C70C834003B0B1B /* ADContactsFieldMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsFieldMask.m; sourceTree = "<group>"; };
+		6D71CBCA1C70C834003B0B1B /* ADContactsFrameworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsFrameworkManager.h; sourceTree = "<group>"; };
+		6D71CBCB1C70C834003B0B1B /* ADContactsFrameworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsFrameworkManager.m; sourceTree = "<group>"; };
+		6D71CBCD1C70C834003B0B1B /* ADContactInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactInfo.h; sourceTree = "<group>"; };
+		6D71CBCE1C70C834003B0B1B /* ADContactsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsManager.h; sourceTree = "<group>"; };
+		6D71CBCF1C70C834003B0B1B /* ADContactsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManager.m; sourceTree = "<group>"; };
+		6D71CBD01C70C834003B0B1B /* ADContactsTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsTypes.h; sourceTree = "<group>"; };
+		6D71CBD21C70C834003B0B1B /* ADContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContact.h; sourceTree = "<group>"; };
+		6D71CBD31C70C834003B0B1B /* ADContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContact.m; sourceTree = "<group>"; };
+		6D71CBD41C70C834003B0B1B /* ADContactAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactAddress.h; sourceTree = "<group>"; };
+		6D71CBD51C70C834003B0B1B /* ADContactAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactAddress.m; sourceTree = "<group>"; };
+		6D71CBD61C70C834003B0B1B /* ADContactEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactEmail.h; sourceTree = "<group>"; };
+		6D71CBD71C70C834003B0B1B /* ADContactEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactEmail.m; sourceTree = "<group>"; };
+		6D71CBD81C70C834003B0B1B /* ADContactPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactPhone.h; sourceTree = "<group>"; };
+		6D71CBD91C70C834003B0B1B /* ADContactPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactPhone.m; sourceTree = "<group>"; };
+		6D71CBF21C70F84A003B0B1B /* ADAddressBookConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAddressBookConverterTests.m; sourceTree = "<group>"; };
+		6D71CBF31C70F84A003B0B1B /* ADContactsConverterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsConverterTests.m; sourceTree = "<group>"; };
+		6D71CBF41C70F84A003B0B1B /* ADContactsFieldMaskTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsFieldMaskTests.m; sourceTree = "<group>"; };
+		6D71CBF51C70F84A003B0B1B /* ADContactsFrameworkManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsFrameworkManagerTests.m; sourceTree = "<group>"; };
+		6D71CBF61C70F84A003B0B1B /* ADContactsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerTests.m; sourceTree = "<group>"; };
+		6D71CBFC1C70F97C003B0B1B /* ADContactsManagerMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsManagerMacros.h; sourceTree = "<group>"; };
+		6D71CBFD1C70FBFA003B0B1B /* ADContactsManagerUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsManagerUtilities.h; sourceTree = "<group>"; };
+		6D71CBFE1C70FBFA003B0B1B /* ADContactsManagerUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerUtilities.m; sourceTree = "<group>"; };
+		6D71CC011C70FDC8003B0B1B /* ADContactsManagerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADContactsManagerError.h; sourceTree = "<group>"; };
+		6D71CC021C70FDC8003B0B1B /* ADContactsManagerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerError.m; sourceTree = "<group>"; };
+		6DE70E621C8D737400E37260 /* ADContactsManagerUtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerUtilitiesTests.m; sourceTree = "<group>"; };
+		6DE70E641C8D746600E37260 /* ADContactsManagerErrorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactsManagerErrorTests.m; sourceTree = "<group>"; };
+		6DE70E661C8D75A500E37260 /* ADContactTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactTests.m; sourceTree = "<group>"; };
+		6DE70E681C8D803100E37260 /* ADContactPhoneTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactPhoneTests.m; sourceTree = "<group>"; };
+		6DE70E6A1C8D80BF00E37260 /* ADContactEmailTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactEmailTests.m; sourceTree = "<group>"; };
+		6DE70E6C1C8D811C00E37260 /* ADContactAddressTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADContactAddressTests.m; sourceTree = "<group>"; };
+		739A2219F9C8FDC24A36BBA7 /* Pods-ADContactsManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADContactsManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADContactsManagerTests/Pods-ADContactsManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9FEAE2D97E3108A64F20709 /* libPods-ADContactsManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADContactsManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,18 +125,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D71CBAD1C70C6B7003B0B1B /* ADContactsManager.framework in Frameworks */,
+				F4E50666DCCD9F897D337C20 /* libPods-ADContactsManagerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170A2CDEEC2110AFEB2FD226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FEAE2D97E3108A64F20709 /* libPods-ADContactsManagerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6D71CB981C70C6B7003B0B1B = {
 			isa = PBXGroup;
 			children = (
+				6D71CBBC1C70C765003B0B1B /* Source */,
 				6D71CBA41C70C6B7003B0B1B /* ADContactsManager */,
 				6D71CBB01C70C6B7003B0B1B /* ADContactsManagerTests */,
 				6D71CBA31C70C6B7003B0B1B /* Products */,
+				F6B8784ED806F8A8BBC572C7 /* Pods */,
+				170A2CDEEC2110AFEB2FD226 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,10 +173,105 @@
 		6D71CBB01C70C6B7003B0B1B /* ADContactsManagerTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D71CBB11C70C6B7003B0B1B /* ADContactsManagerTests.m */,
+				6D71CBF21C70F84A003B0B1B /* ADAddressBookConverterTests.m */,
+				6D71CBF31C70F84A003B0B1B /* ADContactsConverterTests.m */,
+				6D71CBF41C70F84A003B0B1B /* ADContactsFieldMaskTests.m */,
+				6D71CBF51C70F84A003B0B1B /* ADContactsFrameworkManagerTests.m */,
+				6D71CBF61C70F84A003B0B1B /* ADContactsManagerTests.m */,
 				6D71CBB31C70C6B7003B0B1B /* Info.plist */,
+				6DE70E621C8D737400E37260 /* ADContactsManagerUtilitiesTests.m */,
+				6DE70E641C8D746600E37260 /* ADContactsManagerErrorTests.m */,
+				6DE70E661C8D75A500E37260 /* ADContactTests.m */,
+				6DE70E681C8D803100E37260 /* ADContactPhoneTests.m */,
+				6DE70E6A1C8D80BF00E37260 /* ADContactEmailTests.m */,
+				6DE70E6C1C8D811C00E37260 /* ADContactAddressTests.m */,
 			);
 			path = ADContactsManagerTests;
+			sourceTree = "<group>";
+		};
+		6D71CBBC1C70C765003B0B1B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CBBD1C70C834003B0B1B /* Private */,
+				6D71CBCC1C70C834003B0B1B /* Public */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6D71CBBD1C70C834003B0B1B /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CC011C70FDC8003B0B1B /* ADContactsManagerError.h */,
+				6D71CC021C70FDC8003B0B1B /* ADContactsManagerError.m */,
+				6D71CBFD1C70FBFA003B0B1B /* ADContactsManagerUtilities.h */,
+				6D71CBFE1C70FBFA003B0B1B /* ADContactsManagerUtilities.m */,
+				6D71CBFC1C70F97C003B0B1B /* ADContactsManagerMacros.h */,
+				6D71CBBE1C70C834003B0B1B /* AddressBook Framework */,
+				6D71CBC51C70C834003B0B1B /* Contacts Framework */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		6D71CBBE1C70C834003B0B1B /* AddressBook Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CBBF1C70C834003B0B1B /* ADAddressBookConverter.h */,
+				6D71CBC01C70C834003B0B1B /* ADAddressBookConverter.m */,
+				6D71CBC11C70C834003B0B1B /* ADAddressBookFieldMask.h */,
+				6D71CBC21C70C834003B0B1B /* ADAddressBookFieldMask.m */,
+				6D71CBC31C70C834003B0B1B /* ADAddressBookFrameworkManager.h */,
+				6D71CBC41C70C834003B0B1B /* ADAddressBookFrameworkManager.m */,
+			);
+			path = "AddressBook Framework";
+			sourceTree = "<group>";
+		};
+		6D71CBC51C70C834003B0B1B /* Contacts Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CBC61C70C834003B0B1B /* ADContactsConverter.h */,
+				6D71CBC71C70C834003B0B1B /* ADContactsConverter.m */,
+				6D71CBC81C70C834003B0B1B /* ADContactsFieldMask.h */,
+				6D71CBC91C70C834003B0B1B /* ADContactsFieldMask.m */,
+				6D71CBCA1C70C834003B0B1B /* ADContactsFrameworkManager.h */,
+				6D71CBCB1C70C834003B0B1B /* ADContactsFrameworkManager.m */,
+			);
+			path = "Contacts Framework";
+			sourceTree = "<group>";
+		};
+		6D71CBCC1C70C834003B0B1B /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CBCD1C70C834003B0B1B /* ADContactInfo.h */,
+				6D71CBCE1C70C834003B0B1B /* ADContactsManager.h */,
+				6D71CBCF1C70C834003B0B1B /* ADContactsManager.m */,
+				6D71CBD01C70C834003B0B1B /* ADContactsTypes.h */,
+				6D71CBD11C70C834003B0B1B /* Models */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		6D71CBD11C70C834003B0B1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6D71CBD21C70C834003B0B1B /* ADContact.h */,
+				6D71CBD31C70C834003B0B1B /* ADContact.m */,
+				6D71CBD41C70C834003B0B1B /* ADContactAddress.h */,
+				6D71CBD51C70C834003B0B1B /* ADContactAddress.m */,
+				6D71CBD61C70C834003B0B1B /* ADContactEmail.h */,
+				6D71CBD71C70C834003B0B1B /* ADContactEmail.m */,
+				6D71CBD81C70C834003B0B1B /* ADContactPhone.h */,
+				6D71CBD91C70C834003B0B1B /* ADContactPhone.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F6B8784ED806F8A8BBC572C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				739A2219F9C8FDC24A36BBA7 /* Pods-ADContactsManagerTests.debug.xcconfig */,
+				0EAA46980971DEFFCB7EA4F8 /* Pods-ADContactsManagerTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +281,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D71CBE91C70C834003B0B1B /* ADContactsTypes.h in Headers */,
+				6D71CBDE1C70C834003B0B1B /* ADAddressBookFrameworkManager.h in Headers */,
+				6D71CBEA1C70C834003B0B1B /* ADContact.h in Headers */,
+				6D71CBDC1C70C834003B0B1B /* ADAddressBookFieldMask.h in Headers */,
+				6D71CBE71C70C834003B0B1B /* ADContactsManager.h in Headers */,
+				6D71CBEE1C70C834003B0B1B /* ADContactEmail.h in Headers */,
+				6D71CBE61C70C834003B0B1B /* ADContactInfo.h in Headers */,
+				6D71CBFF1C70FBFA003B0B1B /* ADContactsManagerUtilities.h in Headers */,
+				6D71CBDA1C70C834003B0B1B /* ADAddressBookConverter.h in Headers */,
+				6D71CBE41C70C834003B0B1B /* ADContactsFrameworkManager.h in Headers */,
+				6D71CBE21C70C834003B0B1B /* ADContactsFieldMask.h in Headers */,
 				6D71CBA61C70C6B7003B0B1B /* ADContactsManager.h in Headers */,
+				6D71CBE01C70C834003B0B1B /* ADContactsConverter.h in Headers */,
+				6D71CBEC1C70C834003B0B1B /* ADContactAddress.h in Headers */,
+				6D71CC031C70FDC8003B0B1B /* ADContactsManagerError.h in Headers */,
+				6D71CBF01C70C834003B0B1B /* ADContactPhone.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D71CBB91C70C6B7003B0B1B /* Build configuration list for PBXNativeTarget "ADContactsManagerTests" */;
 			buildPhases = (
+				94FBFA364488115BC29E2387 /* Check Pods Manifest.lock */,
 				6D71CBA81C70C6B7003B0B1B /* Sources */,
 				6D71CBA91C70C6B7003B0B1B /* Frameworks */,
 				6D71CBAA1C70C6B7003B0B1B /* Resources */,
+				C24A34A2AD2CD8056961DB97 /* Embed Pods Frameworks */,
+				EA08D2E37708C976931E9BD7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,11 +394,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		94FBFA364488115BC29E2387 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C24A34A2AD2CD8056961DB97 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADContactsManagerTests/Pods-ADContactsManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA08D2E37708C976931E9BD7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADContactsManagerTests/Pods-ADContactsManagerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6D71CB9D1C70C6B7003B0B1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D71CC041C70FDC8003B0B1B /* ADContactsManagerError.m in Sources */,
+				6D71CBF11C70C834003B0B1B /* ADContactPhone.m in Sources */,
+				6D71CBED1C70C834003B0B1B /* ADContactAddress.m in Sources */,
+				6D71CC001C70FBFA003B0B1B /* ADContactsManagerUtilities.m in Sources */,
+				6D71CBE11C70C834003B0B1B /* ADContactsConverter.m in Sources */,
+				6D71CBEF1C70C834003B0B1B /* ADContactEmail.m in Sources */,
+				6D71CBDB1C70C834003B0B1B /* ADAddressBookConverter.m in Sources */,
+				6D71CBE81C70C834003B0B1B /* ADContactsManager.m in Sources */,
+				6D71CBE31C70C834003B0B1B /* ADContactsFieldMask.m in Sources */,
+				6D71CBDF1C70C834003B0B1B /* ADAddressBookFrameworkManager.m in Sources */,
+				6D71CBE51C70C834003B0B1B /* ADContactsFrameworkManager.m in Sources */,
+				6D71CBDD1C70C834003B0B1B /* ADAddressBookFieldMask.m in Sources */,
+				6D71CBEB1C70C834003B0B1B /* ADContact.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +467,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D71CBB21C70C6B7003B0B1B /* ADContactsManagerTests.m in Sources */,
+				6DE70E6B1C8D80BF00E37260 /* ADContactEmailTests.m in Sources */,
+				6DE70E631C8D737400E37260 /* ADContactsManagerUtilitiesTests.m in Sources */,
+				6DE70E651C8D746600E37260 /* ADContactsManagerErrorTests.m in Sources */,
+				6D71CBFA1C70F84A003B0B1B /* ADContactsFrameworkManagerTests.m in Sources */,
+				6D71CBF81C70F84A003B0B1B /* ADContactsConverterTests.m in Sources */,
+				6DE70E691C8D803100E37260 /* ADContactPhoneTests.m in Sources */,
+				6D71CBF91C70F84A003B0B1B /* ADContactsFieldMaskTests.m in Sources */,
+				6D71CBF71C70F84A003B0B1B /* ADAddressBookConverterTests.m in Sources */,
+				6D71CBFB1C70F84A003B0B1B /* ADContactsManagerTests.m in Sources */,
+				6DE70E671C8D75A500E37260 /* ADContactTests.m in Sources */,
+				6DE70E6D1C8D811C00E37260 /* ADContactAddressTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +593,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.antondomashnev.ADContactsManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Debug;
 		};
@@ -332,11 +613,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.antondomashnev.ADContactsManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = (
+					"-Weverything",
+					"-Wno-objc-missing-property-synthesis",
+				);
 			};
 			name = Release;
 		};
 		6D71CBBA1C70C6B7003B0B1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 739A2219F9C8FDC24A36BBA7 /* Pods-ADContactsManagerTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADContactsManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -347,6 +633,7 @@
 		};
 		6D71CBBB1C70C6B7003B0B1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EAA46980971DEFFCB7EA4F8 /* Pods-ADContactsManagerTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ADContactsManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +661,7 @@
 				6D71CBB81C70C6B7003B0B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D71CBB91C70C6B7003B0B1B /* Build configuration list for PBXNativeTarget "ADContactsManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -382,6 +670,7 @@
 				6D71CBBB1C70C6B7003B0B1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
